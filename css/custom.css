@@ -1,0 +1,98 @@
+
+.piko-carousel .product{
+    position: relative;
+}
+.product-wrap:after {
+content: '';
+display: block;
+position: absolute;
+top: 50%;
+right: 0;
+height: 90%;
+border-right: 1px solid #f0eded;
+-webkit-transform: translateY(-50%);
+transform: translateY(-50%);
+z-index: 5;
+}
+.type-tab-3 article.product:after,
+.type-tab-3 .product-wrap:after{
+    content: inherit;
+}
+
+article.product:after {
+content: '';
+display: block;
+position: absolute;
+top: -1.0625rem;
+width: 80%;
+border-bottom: 1px solid #f0eded;
+left: 50%;
+-webkit-transform: translate(-50%, -50%);
+transform: translate(-50%, -50%);
+}
+
+
+[class*="columns-"] article:first-child:after,
+[class*="columns-"] article:nth-child(2):after,
+.columns-3 article:nth-child(3):after,
+.columns-4 article:nth-child(3):after,
+.columns-6 article:nth-child(3):after,
+.columns-4 article:nth-child(4):after,
+.columns-6 article:nth-child(4):after,
+.columns-6 article:nth-child(5):after,
+.columns-6 article:nth-child(6):after,
+.columns-2 article:nth-child(2n) .product-wrap:after,
+.columns-3 article:nth-child(3n) .product-wrap:after,
+.columns-4 article:nth-child(4n) .product-wrap:after,
+.columns-6 article:nth-child(6n) .product-wrap:after {
+content: none;
+}
+.product_list_widget .star-rating{
+    display: none;
+}
+.page-id-594.category-menu .vc_row .secondary-menu .mega-menu > li.menu-item:nth-child(8) {
+    display: none;
+    border-bottom: none;
+
+}
+.col-1, .col-2{
+    max-width:none;
+}#yith-wcwl-popup-message,.piko-notify .woocommerce-message,.piko-notify .woocommerce-error,.piko-notify .woocommerce-info{top:10%}.type-tab-3.s-item-0 .discount:before{content:"SAVE"}@media (min-width:1200px){.container{max-width:1140px} }
+
+.mySlides1, .mySlides2 {display: none}
+img {vertical-align: middle;}
+
+/* Slideshow container */
+.slideshow-container {
+  position: relative;
+  margin-bottom: 65px;
+}
+
+/* Next & previous buttons */
+.prev, .next {
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  width: auto;
+  padding: 16px;
+  margin-top: -22px;
+  color: white;
+  font-weight: bold;
+  font-size: 18px;
+  transition: 0.6s ease;
+  border-radius: 0 3px 3px 0;
+  user-select: none;
+}
+
+/* Position the "next button" to the right */
+.next {
+  right: 0;
+  border-radius: 3px 0 0 3px;
+}
+
+/* On hover, add a grey background color */
+.prev:hover, .next:hover {
+  background-color: #f1f1f1;
+  color: black;
+}
+
